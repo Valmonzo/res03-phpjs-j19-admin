@@ -1,3 +1,37 @@
-Ce fichier devra contenir un tableau des utilisateurs, pour chaque utilisateur, la dernière case de la ligne contiendra 3 boutons lien : un pour voir les infos de cet utilisateur (charge cet utilisateur et redirige vers user.html), un pour modifier cet utilisateur ( charge cet utilisateur et redirige vers update-user.html) et un bouton pour supprimer cet utilisateur (supprime l'utilisateur).
+<!DOCTYPE html>
+<html lang="fr">
 
-Au dessus de ce tableau vous aurez un lien qui permet de créer un nouvel utilisateur (create-user.html).
+    <head>
+        <meta charset="utf-8">
+
+
+    </head>
+
+    <body>
+        <h1>Liste des Utilisateurs</h1>
+        <h2>Créer un utilisateur</h2>
+        <main>
+
+            <table id="users-tab">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Utilisateur</th>
+                            <th>Prénom</th>
+                            <th>Nom</th>
+                            <th>Email</th>
+                            <th>Voir</th>
+                            <th>Editer</th>
+                            <th>Supprimer</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-tbody">
+
+                    </tbody>
+        </main>
+
+
+    </body>
+    <script type="module" src="assets/js/index.js"></script>
+
+</html>
